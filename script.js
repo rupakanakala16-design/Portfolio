@@ -454,6 +454,9 @@ function initializePhotoUpload() {
         img.src = imageSrc;
         img.alt = 'Profile photo';
         img.style.animation = 'fadeInUp 0.6s ease';
+        img.onerror = () => {
+            img.src = 'https://via.placeholder.com/280x280?text=Profile+Photo';
+        };
         photoPreview.appendChild(img);
 
         if (photoModalImg) {
@@ -471,7 +474,7 @@ function initializePhotoUpload() {
         if (savedPhoto) {
             setPhoto(savedPhoto);
         } else {
-            displayPhoto('https://via.placeholder.com/280x280?text=Profile+Photo');
+            displayPhoto('profile.jpg');
         }
     }
 
