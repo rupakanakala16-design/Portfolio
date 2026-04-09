@@ -446,7 +446,7 @@ function initializePhotoUpload() {
 
     const OWNER_CODE = 'Rupa1626';
 
-    function setPhoto(imageSrc) {
+    function displayPhoto(imageSrc) {
         if (!photoPreview) return;
         photoPreview.innerHTML = '';
 
@@ -456,17 +456,22 @@ function initializePhotoUpload() {
         img.style.animation = 'fadeInUp 0.6s ease';
         photoPreview.appendChild(img);
 
-        localStorage.setItem('profilePhoto', imageSrc);
-
         if (photoModalImg) {
             photoModalImg.src = imageSrc;
         }
+    }
+
+    function setPhoto(imageSrc) {
+        displayPhoto(imageSrc);
+        localStorage.setItem('profilePhoto', imageSrc);
     }
 
     function loadExistingPhoto() {
         const savedPhoto = localStorage.getItem('profilePhoto');
         if (savedPhoto) {
             setPhoto(savedPhoto);
+        } else {
+            displayPhoto('https://via.placeholder.com/280x280?text=Profile+Photo');
         }
     }
 
