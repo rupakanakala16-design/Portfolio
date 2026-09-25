@@ -1,17 +1,77 @@
-# Portfolio
+# 🌐 Rupa Kanakala — Personal Portfolio
 
-A simple editable portfolio template built with HTML, CSS, and JavaScript.
+<p align="center">
 
-## Quick start
+  <h2 align="center">✨ Rupa Kanakala | Developer Portfolio</h2>
 
-1. Open `index.html` in your browser.
-2. Edit `styles.css` for visual changes.
-3. Edit `script.js` to add interactivity.
-4. Edit content within `index.html` for your name, projects, and social links.
+  <p align="center">
+    A modern, interactive and responsive personal portfolio website built with HTML, CSS, JavaScript and Three.js.
+  </p>
 
-## Features
+</p>
 
-- responsive layout
-- add project cards dynamically
-- auto-updating year in footer
-- double-click `About` text to edit instantly
+---
+
+## 👋 About the Project
+
+Welcome to my personal portfolio website! 🚀
+
+This portfolio is designed to showcase my:
+
+- 👩‍💻 Developer profile
+- 🎓 Education
+- 🛠️ Technical skills
+- 💡 Soft skills
+- 🚀 Projects
+- 📬 Contact information
+- 🔗 Professional profiles
+
+The website combines a modern **glassmorphism-inspired UI**, smooth animations, interactive elements and a dynamic **Three.js 3D background** to create an engaging portfolio experience.
+
+---
+
+# ✨ Features
+
+## 🏠 Interactive Hero Section
+
+The landing section introduces my profile with:
+
+- 👋 Name and introduction
+- 🎓 B.Tech CSE student information
+- ⌨️ Animated typing text
+- 📸 Profile photo section
+- 🔗 Social media links
+- 📄 Resume download button
+- 🎯 Call-to-action buttons
+
+---
+
+## 🎨 Three.js Animated Background
+
+The portfolio includes an interactive 3D background powered by **Three.js**.
+
+It contains:
+
+- ✨ Floating particles
+- 🔷 3D geometric shapes
+- 🌀 Rotating objects
+- 💫 Dynamic lighting
+- 🖱️ Mouse interaction
+- 🌌 Animated background effects
+
+The background is designed to provide a futuristic and interactive experience while keeping the content readable.
+
+---
+
+## ⌨️ Typing Animations
+
+The hero section includes dynamic typing animations.
+
+The portfolio cycles through different descriptions such as:
+
+```text
+🚀 Aspiring Developer
+✨ Tech Enthusiast
+🧩 Problem Solver
+📚 B.Tech Student
+💻 Creative Coder
